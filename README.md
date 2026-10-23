@@ -6,13 +6,19 @@
 
 ## Español
 
-Esta es la API para un sistema de carrito de compras construido con Laravel. Proporciona los endpoints necesarios para gestionar productos, usuarios y operaciones del carrito de compras.
+Esta es la API para un sistema de carrito de compras construido con **Laravel 12.x** (con soporte de seguridad activo y vigente, tras el fin de soporte de seguridad de Laravel 11.x el 12 de marzo de 2026). Proporciona los endpoints necesarios para gestionar productos, usuarios y operaciones del carrito de compras.
 
 ### 📋 Requisitos Previos
 
-Asegúrate de tener instalado en tu entorno local:
-- [PHP](https://www.php.net/) (>= 8.1 recomendado)
-- [Composer](https://getcomposer.org/)
+Asegúrate de tener instalado en tu entorno local / servidor:
+- [PHP](https://www.php.net/) (**>= 8.2 requerido**, compatible con PHP 8.2, 8.3, 8.4 y 8.5; PHP 8.2 cuenta con soporte de seguridad hasta el 31-12-2026).
+  - Extensiones PHP requeridas: `bcmath`, `ctype`, `curl`, `dom`, `fileinfo`, `filter`, `hash`, `json`, `mbstring`, `openssl`, `pdo`, `pdo_sqlite` (o `pdo_mysql`), `session`, `tokenizer`, `xml`, `zip`.
+  - Verifica tu versión y extensiones activas con:
+    ```bash
+    php -v
+    php -m
+    ```
+- [Composer](https://getcomposer.org/) (versión 2.2 o superior)
 - [Node.js y npm](https://nodejs.org/) (para compilar assets del frontend si es necesario)
 - Un gestor de base de datos (SQLite viene por defecto, pero puedes usar MySQL, PostgreSQL, etc.)
 
@@ -81,13 +87,19 @@ Sigue estos pasos para levantar el entorno de desarrollo local:
 
 ## English
 
-This is the API for a shopping cart system built with Laravel. It provides the necessary endpoints to manage products, users, and shopping cart operations.
+This is the API for a shopping cart system built with **Laravel 12.x** (actively supported with current security maintenance, following the end-of-life of Laravel 11.x security updates on March 12, 2026). It provides the necessary endpoints to manage products, users, and shopping cart operations.
 
 ### 📋 Prerequisites
 
-Make sure you have the following installed in your local environment:
-- [PHP](https://www.php.net/) (>= 8.1 recommended)
-- [Composer](https://getcomposer.org/)
+Make sure you have the following installed in your local environment / server:
+- [PHP](https://www.php.net/) (**>= 8.2 required**, compatible with PHP 8.2, 8.3, 8.4, and 8.5; PHP 8.2 receives security support until 2026-12-31).
+  - Required PHP extensions: `bcmath`, `ctype`, `curl`, `dom`, `fileinfo`, `filter`, `hash`, `json`, `mbstring`, `openssl`, `pdo`, `pdo_sqlite` (or `pdo_mysql`), `session`, `tokenizer`, `xml`, `zip`.
+  - Verify your active version and extensions with:
+    ```bash
+    php -v
+    php -m
+    ```
+- [Composer](https://getcomposer.org/) (version 2.2 or higher)
 - [Node.js & npm](https://nodejs.org/) (for compiling frontend assets if needed)
 - A database manager (SQLite is default, but you can use MySQL, PostgreSQL, etc.)
 
